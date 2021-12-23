@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.header {
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datenskate {
+  /*text-shadow: 2px 2px 4px #999;*/
+  color: #ff4e00;
+  background: -webkit-linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header__icon {
+  padding: 20px;
+}
