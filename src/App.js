@@ -6,6 +6,7 @@ import TinderCards from './TinderCards.js';
 import SwipeButtons from './SwipeButtons';
 import Chats from './Chats.js';
 import ChatScreen from './ChatScreen';
+import SignUp from './SignUp';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Chats />
             </Route>
             <Route path="/">
+            {/* <SignUp /> */}
               <Header />
               <TinderCards />
               <SwipeButtons />

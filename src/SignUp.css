@@ -1,0 +1,6 @@
+.avatar {
+  background-color: #ff4e00;
+  background: -webkit-linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -8,14 +8,14 @@ function ChatScreen() {
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState([
         {
-            name: 'Joe Biden',
-            image: "https://foodandeverythingelsetoo.com/wp-content/uploads/2019/04/Screenshot-2019-04-01-20.17.27.png",
+            name: 'Monica Torres',
+            image: "https://www.californiastreet.net/wp-content/uploads/2019/10/monica-torres-face.jpg",
             message: "Hey"
         },
         {
-            name: 'Joe Biden',
-            image: "https://foodandeverythingelsetoo.com/wp-content/uploads/2019/04/Screenshot-2019-04-01-20.17.27.png",
-            message: "Let me get a lil sniffy sniff of that hair tho"
+            name: 'Monica Torres',
+            image: "https://www.californiastreet.net/wp-content/uploads/2019/10/monica-torres-face.jpg",
+            message: "Are you up for a game of SKATE?"
         },
     ]);
 
@@ -28,7 +28,7 @@ function ChatScreen() {
 
     return (
         <div className="chatScreen">
-            <p className="chatScreen__timeStamp">YOU MATCHED WITH JOE BIDEN ON 02/11/2021</p>
+            <p className="chatScreen__timeStamp">YOU MATCHED WITH MONICA TORRES ON 02/11/2021</p>
             {messages.map(message => (
                 message.name ? (
 
